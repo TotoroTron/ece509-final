@@ -1,0 +1,16 @@
+HELLO WORLD from process 0 of 16 on hal0025.amarel.rutgers.edu, running on CPU 16
+HELLO WORLD from process 1 of 16 on hal0025.amarel.rutgers.edu, running on CPU 21
+HELLO WORLD from process 2 of 16 on hal0025.amarel.rutgers.edu, running on CPU 22
+HELLO WORLD from process 3 of 16 on hal0025.amarel.rutgers.edu, running on CPU 23
+HELLO WORLD from process 4 of 16 on hal0036.amarel.rutgers.edu, running on CPU 19
+HELLO WORLD from process 8 of 16 on hal0037.amarel.rutgers.edu, running on CPU 24
+HELLO WORLD from process 12 of 16 on hal0038.amarel.rutgers.edu, running on CPU 22
+HELLO WORLD from process 5 of 16 on hal0036.amarel.rutgers.edu, running on CPU 24
+HELLO WORLD from process 9 of 16 on hal0037.amarel.rutgers.edu, running on CPU 25
+HELLO WORLD from process 13 of 16 on hal0038.amarel.rutgers.edu, running on CPU 23
+HELLO WORLD from process 6 of 16 on hal0036.amarel.rutgers.edu, running on CPU 25
+HELLO WORLD from process 10 of 16 on hal0037.amarel.rutgers.edu, running on CPU 26
+HELLO WORLD from process 14 of 16 on hal0038.amarel.rutgers.edu, running on CPU 24
+HELLO WORLD from process 7 of 16 on hal0036.amarel.rutgers.edu, running on CPU 27
+HELLO WORLD from process 11 of 16 on hal0037.amarel.rutgers.edu, running on CPU 27
+HELLO WORLD from process 15 of 16 on hal0038.amarel.rutgers.edu, running on CPU 26
