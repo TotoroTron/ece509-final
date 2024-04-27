@@ -1,0 +1,53 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 73, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 57, in main
+    print("Length of local means: ", len(local_means))
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 73, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 57, in main
+    print("Length of local means: ", len(local_means))
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 73, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 57, in main
+    print("Length of local means: ", len(local_means))
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 73, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 57, in main
+    print("Length of local means: ", len(local_means))
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 73, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 57, in main
+    print("Length of local means: ", len(local_means))
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 73, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 57, in main
+    print("Length of local means: ", len(local_means))
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 73, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 57, in main
+    print("Length of local means: ", len(local_means))
+TypeError: object of type 'NoneType' has no len()
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[49175,1],4]
+  Exit code:    1
+--------------------------------------------------------------------------

@@ -1,0 +1,55 @@
+HELLO WORLD from process 1 of 8 on hal0027.amarel.rutgers.edu, running on CPU 16, Processor: x86_64
+HELLO WORLD from process 2 of 8 on hal0027.amarel.rutgers.edu, running on CPU 17, Processor: x86_64
+HELLO WORLD from process 4 of 8 on hal0027.amarel.rutgers.edu, running on CPU 19, Processor: x86_64
+HELLO WORLD from process 5 of 8 on hal0027.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 6 of 8 on hal0027.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 7 of 8 on hal0027.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 3 of 8 on hal0027.amarel.rutgers.edu, running on CPU 18, Processor: x86_64
+HELLO WORLD from process 0 of 8 on hal0027.amarel.rutgers.edu, running on CPU 12, Processor: x86_64
+Validation mean: 499.87439395422416
+Validation shape: ()
+Process  {1}  has received a subblock of shape (200, 1600) 
+
+Process  {1}  has a local mean of  500.07562817051553 
+
+Shape of local mean: ()
+Process  {2}  has received a subblock of shape (200, 1600) 
+
+Process  {2}  has a local mean of  499.9147954400279 
+
+Shape of local mean: ()
+Process  {3}  has received a subblock of shape (200, 1600) 
+
+Process  {3}  has a local mean of  499.97245939415535 
+
+Shape of local mean: ()
+Process  {4}  has received a subblock of shape (200, 1600) 
+
+Process  {4}  has a local mean of  500.0943038011052 
+
+Shape of local mean: ()
+Process  {5}  has received a subblock of shape (200, 1600) 
+
+Process  {5}  has a local mean of  499.79988347498437 
+
+Shape of local mean: ()
+Process  {6}  has received a subblock of shape (200, 1600) 
+
+Process  {6}  has a local mean of  500.015664693267 
+
+Shape of local mean: ()
+Process  {7}  has received a subblock of shape (200, 1600) 
+
+Process  {7}  has a local mean of  499.75642584942176 
+
+Shape of local mean: ()
+Process  {0}  has received a subblock of shape (200, 1600) 
+
+Process  {0}  has a local mean of  499.36599081031756 
+
+Shape of local mean: ()
+Global mean: 499.87439395422433
+Global shape: ()
+Error: 1.7053025658242404e-13
+Error shape: ()
+Error norm: 1.7053025658242404e-13

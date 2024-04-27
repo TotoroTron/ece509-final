@@ -1,0 +1,50 @@
+HELLO WORLD from process 5 of 8 on hal0027.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 3 of 8 on hal0027.amarel.rutgers.edu, running on CPU 18, Processor: x86_64
+HELLO WORLD from process 4 of 8 on hal0027.amarel.rutgers.edu, running on CPU 19, Processor: x86_64
+HELLO WORLD from process 2 of 8 on hal0027.amarel.rutgers.edu, running on CPU 17, Processor: x86_64
+HELLO WORLD from process 6 of 8 on hal0027.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 7 of 8 on hal0027.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 0 of 8 on hal0027.amarel.rutgers.edu, running on CPU 12, Processor: x86_64
+HELLO WORLD from process 1 of 8 on hal0027.amarel.rutgers.edu, running on CPU 16, Processor: x86_64
+Validation mean: 500.08680297819217
+Validation shape: ()
+Process  {1}  has received a subblock of shape (200, 1600) 
+
+Process  {1}  has a local mean of  500.0641174810365 
+
+Shape of local mean: ()
+Process  {2}  has received a subblock of shape (200, 1600) 
+
+Process  {2}  has a local mean of  500.20517563525124 
+
+Shape of local mean: ()
+Process  {3}  has received a subblock of shape (200, 1600) 
+
+Process  {3}  has a local mean of  500.1899838082749 
+
+Shape of local mean: ()
+Process  {4}  has received a subblock of shape (200, 1600) 
+
+Process  {4}  has a local mean of  500.1715450064754 
+
+Shape of local mean: ()
+Process  {5}  has received a subblock of shape (200, 1600) 
+
+Process  {5}  has a local mean of  499.8977335975571 
+
+Shape of local mean: ()
+Process  {6}  has received a subblock of shape (200, 1600) 
+
+Process  {6}  has a local mean of  500.0449686763339 
+
+Shape of local mean: ()
+Process  {7}  has received a subblock of shape (200, 1600) 
+
+Process  {7}  has a local mean of  499.98680017835795 
+
+Shape of local mean: ()
+Process  {0}  has received a subblock of shape (200, 1600) 
+
+Process  {0}  has a local mean of  500.1340994422483 
+
+Shape of local mean: ()

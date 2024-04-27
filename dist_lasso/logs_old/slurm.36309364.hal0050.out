@@ -1,0 +1,35 @@
+HELLO WORLD from process 6 of 8 on hal0050.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 7 of 8 on hal0050.amarel.rutgers.edu, running on CPU 27, Processor: x86_64
+HELLO WORLD from process 0 of 8 on hal0050.amarel.rutgers.edu, running on CPU 16, Processor: x86_64
+HELLO WORLD from process 1 of 8 on hal0050.amarel.rutgers.edu, running on CPU 19, Processor: x86_64
+HELLO WORLD from process 2 of 8 on hal0050.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 3 of 8 on hal0050.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 4 of 8 on hal0050.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 5 of 8 on hal0050.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+Validation mean: [ 0.04154866 -0.02258641  0.00415252 ... -0.01659827  0.0149785
+ -0.02697386]
+Process  {1}  has received a subblock of shape (200, 1600)
+Process  {1}  has a local mean of  [ 0.06445746  0.05681299 -0.07065223 ... -0.07701831 -0.03004842
+ -0.02395116]
+Process  {2}  has received a subblock of shape (200, 1600)
+Process  {2}  has a local mean of  [ 2.08790523e-02 -5.39758263e-02  2.96290474e-02 ... -1.89258018e-02
+ -3.28509770e-02 -6.07069380e-05]
+Process  {3}  has received a subblock of shape (200, 1600)
+Process  {3}  has a local mean of  [ 0.06597055 -0.12163839 -0.07936833 ...  0.02350551  0.01516111
+ -0.0038931 ]
+Process  {4}  has received a subblock of shape (200, 1600)
+Process  {4}  has a local mean of  [0.03290025 0.00419441 0.03438042 ... 0.09274274 0.05431867 0.08164979]
+Process  {5}  has received a subblock of shape (200, 1600)
+Process  {5}  has a local mean of  [ 0.02195897 -0.17266595  0.05749543 ...  0.03087258 -0.05450335
+ -0.01430683]
+Process  {6}  has received a subblock of shape (200, 1600)
+Process  {6}  has a local mean of  [ 0.09075549  0.01042593  0.04454343 ... -0.09762809  0.07747751
+ -0.15615647]
+Process  {7}  has received a subblock of shape (200, 1600)
+Process  {0}  has received a subblock of shape (200, 1600)
+Process  {7}  has a local mean of  [ 0.03934619  0.04642688  0.00757669 ... -0.03109886  0.01913776
+ -0.12460916]Process  {0}  has a local mean of  [-0.00387869  0.04972868  0.00961572 ... -0.05523597  0.07113572
+  0.02553675]
+
+Global mean: [ 0.04154866 -0.02258641  0.00415252 ... -0.01659827  0.0149785
+ -0.02697386]

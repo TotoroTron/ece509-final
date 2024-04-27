@@ -20,41 +20,55 @@ def main():
     print(f"HELLO WORLD from process {rank} of {size} on {hostname}, running on CPU {cpu_num}, Processor: {platform.processor()}")
 
     assert size == 8
-    N = 4000
+    N = 1600
     M = N // size
 
     if rank == 0:
-        A = np.random.randn(N, N)
+        A = np.random.normal(500, 100, (N, N))
         x = np.random.randn(N)
         b = np.random.randn(N)
 
-        subAs = [A[:, i * M:(i + 1) * M] for i in range(8)]
-        subxs = [x[i * M:(i + 1) * M] for i in range(8)]
+        validation_mean = np.mean(A)
+        print(f"Validation mean: {validation_mean}")
+        print(f"Validation shape: {validation_mean.shape}")
+
+        subblocks = []
+        for i in range(size):
+            # SPLITTING ACROSS EXAMPLES
+            """
+            # Numpy slicing syntax: A[rows=0:400, cols=:]
+            # subblock[0] = A[0:400, :]
+            # subblock[1] = A[400:800, :], etc.
+            """
+            subblocks.append(A[i * M: (i + 1) * M, :])
     else:
-        subA = np.empty((N,M))
-        subx = np.empty(M)
-        subAs = None
-        subxs = None
-        A = None
+        subblocks = None
         x = None
-    
-    # Scatter the subblocks and subvectors to all processes
-    comm.Scatter(subAs, subA, root=0)
-    comm.Scatter(subxs, subx, root=0)
+        b = None
 
-    # Compute the local product
-    local_result = np.dot(subA, subx)
+    local_block = comm.scatter(subblocks, root=0)
+    print(f"Process ", {rank}, " has received a subblock of shape", local_block.shape, "\n")
 
-    # Gather the results
-    results = None
+    local_mean = np.mean(local_block)
+    print(f"Process ", {rank}, " has a local mean of ", local_mean, "\n")
+    print(f"Shape of local mean: {local_mean.shape}")
+
+    local_means = comm.gather(local_mean, root=0)
+
+
     if rank == 0:
-        results = np.empty((size, M))
-    comm.Gather(local_result, results, root=0)
+        print("Length of local means: ", len(local_means))
+        global_mean = np.mean(local_means)
+        print(f"Global mean: {global_mean}")
+        print(f"Global shape: {global_mean.shape}")
 
-    # Final summation at the root process
-    if rank == 0:
-        final_result = np.sum(results.reshape(size, M), axis=0)
-        print("MPI Final Result:", final_result)
+        error = global_mean - validation_mean
+        print(f"Error: {error}")
+        print(f"Error shape: {error.shape}")
+
+        error_norm = np.linalg.norm(error)
+        print(f"Error norm: {error_norm}")
+
 
 if __name__ == "__main__":
     main()
