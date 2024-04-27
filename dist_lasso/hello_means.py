@@ -51,23 +51,15 @@ def main():
 
     local_mean = np.mean(local_block)
     print(f"Process ", {rank}, " has a local mean of ", local_mean, "\n")
-    print(f"Shape of local mean: {local_mean.shape}")
 
     local_means = comm.gather(local_mean, root=0)
-
 
     if rank == 0:
         print("Length of local means: ", len(local_means))
         global_mean = np.mean(local_means)
-        print(f"Global mean: {global_mean}")
-        print(f"Global shape: {global_mean.shape}")
 
         error = global_mean - validation_mean
         print(f"Error: {error}")
-        print(f"Error shape: {error.shape}")
-
-        error_norm = np.linalg.norm(error)
-        print(f"Error norm: {error_norm}")
 
 
 if __name__ == "__main__":
