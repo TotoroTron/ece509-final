@@ -1,0 +1,2 @@
+[hal0033][[55250,1],1][btl_tcp_endpoint.c:626:mca_btl_tcp_endpoint_recv_connect_ack] received unexpected process identifier [[55250,1],2]
+slurmstepd: error: *** JOB 36313107 ON hal0026 CANCELLED AT 2024-04-27T16:47:11 ***

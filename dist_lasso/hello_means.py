@@ -19,8 +19,8 @@ def main():
     cpu_num = print_cpu_info()
     print(f"HELLO WORLD from process {rank} of {size} on {hostname}, running on CPU {cpu_num}, Processor: {platform.processor()}")
 
-    assert size == 8
-    N = 1600
+    # assert size == 8
+    N = 14000
     M = N // size
 
     if rank == 0:
@@ -35,9 +35,7 @@ def main():
         for i in range(size):
             # SPLITTING ACROSS EXAMPLES
             """
-            # Numpy slicing syntax: A[rows=0:400, cols=:]
-            # subblock[0] = A[0:400, :]
-            # subblock[1] = A[400:800, :], etc.
+            # Numpy slicing syntax: A[rows=0:1000, cols=:]
             """
             subblocks.append(A[i * M: (i + 1) * M, :])
     else:

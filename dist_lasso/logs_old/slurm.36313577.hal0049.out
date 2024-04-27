@@ -1,0 +1,12 @@
+HELLO WORLD from process 0 of 8 on hal0049.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 2 of 8 on hal0057.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 1 of 8 on hal0050.amarel.rutgers.edu, running on CPU 13, Processor: x86_64
+HELLO WORLD from process 6 of 8 on hal0061.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 5 of 8 on hal0060.amarel.rutgers.edu, running on CPU 2, Processor: x86_64
+HELLO WORLD from process 4 of 8 on hal0059.amarel.rutgers.edu, running on CPU 16, Processor: x86_64
+HELLO WORLD from process 3 of 8 on hal0058.amarel.rutgers.edu, running on CPU 1, Processor: x86_64
+HELLO WORLD from process 7 of 8 on hal0063.amarel.rutgers.edu, running on CPU 18, Processor: x86_64
+Validation dot: [2.00127868e+08 2.00832867e+08 1.98900347e+08 ... 2.01374966e+08
+ 1.99261031e+08 1.98444870e+08]
+Validation shape: (56000,)
+Validation Elapsed time: 0.06788849830627441

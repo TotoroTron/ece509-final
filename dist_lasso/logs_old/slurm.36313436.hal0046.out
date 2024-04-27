@@ -1,0 +1,76 @@
+HELLO WORLD from process 12 of 14 on hal0046.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 6 of 14 on hal0046.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 11 of 14 on hal0046.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 8 of 14 on hal0046.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 4 of 14 on hal0046.amarel.rutgers.edu, running on CPU 12, Processor: x86_64
+HELLO WORLD from process 0 of 14 on hal0046.amarel.rutgers.edu, running on CPU 8, Processor: x86_64
+HELLO WORLD from process 9 of 14 on hal0046.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+HELLO WORLD from process 7 of 14 on hal0046.amarel.rutgers.edu, running on CPU 17, Processor: x86_64
+HELLO WORLD from process 5 of 14 on hal0046.amarel.rutgers.edu, running on CPU 14, Processor: x86_64
+HELLO WORLD from process 10 of 14 on hal0046.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 13 of 14 on hal0046.amarel.rutgers.edu, running on CPU 27, Processor: x86_64
+HELLO WORLD from process 1 of 14 on hal0046.amarel.rutgers.edu, running on CPU 9, Processor: x86_64
+HELLO WORLD from process 2 of 14 on hal0046.amarel.rutgers.edu, running on CPU 10, Processor: x86_64
+HELLO WORLD from process 3 of 14 on hal0046.amarel.rutgers.edu, running on CPU 11, Processor: x86_64
+Validation dot: [5.59293982e+08 5.60761928e+08 5.59586554e+08 ... 5.60813551e+08
+ 5.58676095e+08 5.60415963e+08]
+Validation shape: (8000,)
+Validation Elapsed time: 0.02736973762512207
+Process  {1}  has received a subblock of shape (571, 2800) 
+
+Process  {2}  has received a subblock of shape (571, 2800) 
+
+Process  {3}  has received a subblock of shape (571, 2800) 
+
+Process  {4}  has received a subblock of shape (571, 2800) 
+
+Process  {5}  has received a subblock of shape (571, 2800) 
+
+Process  {6}  has received a subblock of shape (571, 2800) 
+
+Process  {7}  has received a subblock of shape (571, 2800) 
+
+Process  {8}  has received a subblock of shape (571, 2800) 
+
+Process  {9}  has received a subblock of shape (571, 2800) 
+
+Process  {10}  has received a subblock of shape (571, 2800) 
+
+Process  {11}  has received a subblock of shape (571, 2800) 
+
+Process  {12}  has received a subblock of shape (571, 2800) 
+
+Process  {13}  has received a subblock of shape (571, 2800) 
+
+Process  {0}  has received a subblock of shape (571, 2800) 
+
+Process  {13}  has received x of shape (2800,) 
+Process  {0}  has received x of shape (2800,) 
+
+Process  {7}  has received x of shape (2800,) 
+
+Process  {8}  has received x of shape (2800,) 
+
+Process  {3}  has received x of shape (2800,) 
+
+Process  {12}  has received x of shape (2800,) 
+
+Process  {1}  has received x of shape (2800,) 
+
+Process  {6}  has received x of shape (2800,) 
+
+Process  {11}  has received x of shape (2800,) 
+
+Process  {10}  has received x of shape (2800,) 
+
+Process  {2}  has received x of shape (2800,) 
+
+Process  {4}  has received x of shape (2800,) 
+
+Process  {5}  has received x of shape (2800,) 
+
+Process  {9}  has received x of shape (2800,) 
+
+
+MPI Elapsed time: 0.2806117534637451
+Length of local dots:  14

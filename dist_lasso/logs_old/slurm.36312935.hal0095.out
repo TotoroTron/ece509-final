@@ -1,0 +1,54 @@
+HELLO WORLD from process 6 of 10 on hal0095.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+HELLO WORLD from process 3 of 10 on hal0095.amarel.rutgers.edu, running on CPU 4, Processor: x86_64
+HELLO WORLD from process 1 of 10 on hal0095.amarel.rutgers.edu, running on CPU 2, Processor: x86_64
+HELLO WORLD from process 9 of 10 on hal0095.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 4 of 10 on hal0095.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 2 of 10 on hal0095.amarel.rutgers.edu, running on CPU 3, Processor: x86_64
+HELLO WORLD from process 5 of 10 on hal0095.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 8 of 10 on hal0095.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 7 of 10 on hal0095.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 0 of 10 on hal0095.amarel.rutgers.edu, running on CPU 1, Processor: x86_64
+Validation mean: 499.9957320417219
+Validation shape: ()
+Process  {1}  has received a subblock of shape (1400, 14000) 
+
+Process  {1}  has a local mean of  500.00879090280404 
+
+Process  {2}  has received a subblock of shape (1400, 14000) 
+
+Process  {2}  has a local mean of  499.9725190541466 
+
+Process  {3}  has received a subblock of shape (1400, 14000) 
+
+Process  {3}  has a local mean of  500.0243086493032 
+
+Process  {4}  has received a subblock of shape (1400, 14000) 
+
+Process  {4}  has a local mean of  499.96324017042025 
+
+Process  {5}  has received a subblock of shape (1400, 14000) 
+
+Process  {5}  has a local mean of  499.9869926768126 
+
+Process  {6}  has received a subblock of shape (1400, 14000) 
+
+Process  {6}  has a local mean of  500.04571033645516 
+
+Process  {7}  has received a subblock of shape (1400, 14000) 
+
+Process  {7}  has a local mean of  499.97234650972626 
+
+Process  {8}  has received a subblock of shape (1400, 14000) 
+
+Process  {8}  has a local mean of  499.999856438691 
+
+Process  {9}  has received a subblock of shape (1400, 14000) 
+
+Process  {0}  has received a subblock of shape (1400, 14000) 
+
+Process  {9}  has a local mean of  500.0018694594549 
+
+Process  {0}  has a local mean of  499.98168621938834 
+
+Length of local means:  10
+Error: -1.7053025658242404e-12

@@ -1,0 +1,86 @@
+HELLO WORLD from process 4 of 8 on slepner085.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 5 of 8 on slepner085.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 6 of 8 on slepner085.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+HELLO WORLD from process 7 of 8 on slepner085.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 2 of 8 on slepner085.amarel.rutgers.edu, running on CPU 12, Processor: x86_64
+HELLO WORLD from process 0 of 8 on slepner085.amarel.rutgers.edu, running on CPU 8, Processor: x86_64
+HELLO WORLD from process 1 of 8 on slepner085.amarel.rutgers.edu, running on CPU 9, Processor: x86_64
+HELLO WORLD from process 3 of 8 on slepner085.amarel.rutgers.edu, running on CPU 13, Processor: x86_64
+Validation dot: [1.99031633e+08 1.98742095e+08 1.98480720e+08 ... 1.99346388e+08
+ 1.97857505e+08 1.98865470e+08]
+Validation shape: (14000,)
+Validation Elapsed time: 0.029910564422607422
+Process  {1}  has received a subblock of shape (1750, 1000) 
+
+Process  {2}  has received a subblock of shape (1750, 1000) 
+
+Process  {3}  has received a subblock of shape (1750, 1000) 
+
+Process  {4}  has received a subblock of shape (1750, 1000) 
+
+Process  {5}  has received a subblock of shape (1750, 1000) 
+
+Process  {6}  has received a subblock of shape (1750, 1000) 
+
+Process  {7}  has received a subblock of shape (1750, 1000) 
+
+Process  {0}  has received a subblock of shape (1750, 1000) 
+
+Process  {7}  has received x of shape (1000,) 
+
+Process  {0}  has received x of shape (1000,) 
+
+Process 0 has received a subblock of shape (1750, 1000)
+Process 0 has received x of shape (1000,)
+Process  {6}  has received x of shape (1000,) 
+
+Process 7 has received a subblock of shape (1750, 1000)
+Process 7 has received x of shape (1000,)
+Time to scatter and broadcast: 0.9397 seconds
+Time to scatter and broadcast: 0.1558 seconds
+Process  {1}  has received x of shape (1000,) 
+
+Process  {2}  has received x of shape (1000,) 
+
+Process  {5}  has received x of shape (1000,) 
+
+Process 1 has received a subblock of shape (1750, 1000)
+Process 1 has received x of shape (1000,)
+Process 6 has received a subblock of shape (1750, 1000)
+Process 6 has received x of shape (1000,)
+Time to scatter and broadcast: 0.9398 seconds
+Process 2 has received a subblock of shape (1750, 1000)
+Process 2 has received x of shape (1000,)
+Process 5 has received a subblock of shape (1750, 1000)
+Process 5 has received x of shape (1000,)
+Time to scatter and broadcast: 0.9398 seconds
+Time to scatter and broadcast: 0.9397 seconds
+Time to scatter and broadcast: 0.9396 seconds
+Process  {3}  has received x of shape (1000,) 
+
+Process  {4}  has received x of shape (1000,) 
+Process 3 has received a subblock of shape (1750, 1000)
+Process 3 has received x of shape (1000,)
+Time to scatter and broadcast: 0.9398 seconds
+
+Process 4 has received a subblock of shape (1750, 1000)
+Process 4 has received x of shape (1000,)
+Time to scatter and broadcast: 0.9399 seconds
+Process 0 has finished the dot product in 0.0013 seconds.
+Process 2 has finished the dot product in 0.0045 seconds.
+Process 5 has finished the dot product in 0.0048 seconds.
+Process 1 has finished the dot product in 0.0050 seconds.
+Process 6 has finished the dot product in 0.0050 seconds.
+Process 4 has finished the dot product in 0.0047 seconds.
+Process 7 has finished the dot product in 0.0051 seconds.
+Process 3 has finished the dot product in 0.0049 seconds.
+Time to gather: 0.0004 seconds
+Time to gather: 0.0008 seconds
+Time to gather: 0.0003 seconds
+Time to gather: 0.0004 seconds
+Time to gather: 0.0003 seconds
+Time to gather: 0.0006 seconds
+Time to gather: 0.0004 seconds
+Time to gather: 0.0043 seconds
+Length of local dots:  8
+Error Norm: 0.0

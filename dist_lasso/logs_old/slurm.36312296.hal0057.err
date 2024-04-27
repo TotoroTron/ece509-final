@@ -1,0 +1,43 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 71, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 52, in main
+    local_x = comm.Bcast(x, root=0)
+UnboundLocalError: local variable 'x' referenced before assignment
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 71, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 52, in main
+    local_x = comm.Bcast(x, root=0)
+UnboundLocalError: local variable 'x' referenced before assignment
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 71, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 52, in main
+    local_x = comm.Bcast(x, root=0)
+UnboundLocalError: local variable 'x' referenced before assignment
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 71, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 52, in main
+    local_x = comm.Bcast(x, root=0)
+UnboundLocalError: local variable 'x' referenced before assignment
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 71, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 52, in main
+    local_x = comm.Bcast(x, root=0)
+UnboundLocalError: local variable 'x' referenced before assignment
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 71, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 52, in main
+    local_x = comm.Bcast(x, root=0)
+UnboundLocalError: local variable 'x' referenced before assignment
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 71, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 52, in main
+    local_x = comm.Bcast(x, root=0)
+UnboundLocalError: local variable 'x' referenced before assignment
+slurmstepd: error: *** JOB 36312296 ON hal0057 CANCELLED AT 2024-04-27T15:52:24 ***

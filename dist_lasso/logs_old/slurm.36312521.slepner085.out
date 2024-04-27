@@ -1,0 +1,33 @@
+HELLO WORLD from process 1 of 8 on slepner085.amarel.rutgers.edu, running on CPU 19, Processor: x86_64
+HELLO WORLD from process 2 of 8 on slepner085.amarel.rutgers.edu, running on CPU 8, Processor: x86_64
+HELLO WORLD from process 4 of 8 on slepner085.amarel.rutgers.edu, running on CPU 12, Processor: x86_64
+HELLO WORLD from process 6 of 8 on slepner085.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 7 of 8 on slepner085.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 5 of 8 on slepner085.amarel.rutgers.edu, running on CPU 13, Processor: x86_64
+HELLO WORLD from process 0 of 8 on slepner085.amarel.rutgers.edu, running on CPU 17, Processor: x86_64
+HELLO WORLD from process 3 of 8 on slepner085.amarel.rutgers.edu, running on CPU 9, Processor: x86_64
+Validation dot: [[7.97664036e+08]
+ [7.99953641e+08]
+ [8.01950821e+08]
+ ...
+ [7.99969196e+08]
+ [8.00858639e+08]
+ [8.01594402e+08]]
+Validation shape: (4000, 1)
+Validation Elapsed time: 0.015961647033691406
+Process  {1}  has received a subblock of shape (500, 4000) 
+
+Process  {2}  has received a subblock of shape (500, 4000) 
+
+Process  {3}  has received a subblock of shape (500, 4000) 
+
+Process  {4}  has received a subblock of shape (500, 4000) 
+
+Process  {5}  has received a subblock of shape (500, 4000) 
+
+Process  {6}  has received a subblock of shape (500, 4000) 
+
+Process  {7}  has received a subblock of shape (500, 4000) 
+
+Process  {0}  has received a subblock of shape (500, 4000) 
+

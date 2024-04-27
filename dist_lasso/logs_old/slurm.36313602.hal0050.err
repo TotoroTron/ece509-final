@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------
+WARNING: Open MPI accepted a TCP connection from what appears to be a
+another Open MPI process but cannot find a corresponding process
+entry for that peer.
+
+This attempted connection will be ignored; your MPI job may or may not
+continue properly.
+
+  Local host: hal0057
+  PID:        2735
+--------------------------------------------------------------------------
+slurmstepd: error: *** JOB 36313602 ON hal0050 CANCELLED AT 2024-04-27T17:16:32 ***

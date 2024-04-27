@@ -1,0 +1,24 @@
+HELLO WORLD from process 8 of 14 on hal0038.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 10 of 14 on hal0038.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 4 of 14 on hal0038.amarel.rutgers.edu, running on CPU 9, Processor: x86_64
+HELLO WORLD from process 5 of 14 on hal0038.amarel.rutgers.edu, running on CPU 10, Processor: x86_64
+HELLO WORLD from process 6 of 14 on hal0038.amarel.rutgers.edu, running on CPU 11, Processor: x86_64
+HELLO WORLD from process 7 of 14 on hal0038.amarel.rutgers.edu, running on CPU 13, Processor: x86_64
+HELLO WORLD from process 9 of 14 on hal0038.amarel.rutgers.edu, running on CPU 17, Processor: x86_64
+HELLO WORLD from process 11 of 14 on hal0038.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+HELLO WORLD from process 12 of 14 on hal0038.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 13 of 14 on hal0038.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 1 of 14 on hal0035.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 2 of 14 on hal0035.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 0 of 14 on hal0035.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 3 of 14 on hal0035.amarel.rutgers.edu, running on CPU 27, Processor: x86_64
+Validation dot: [1.98986530e+08 1.99023681e+08 1.99780315e+08 ... 1.98787225e+08
+ 1.98547789e+08 1.97721381e+08]
+Validation shape: (56000,)
+Validation Elapsed time: 0.043177127838134766
+Process  {1}  has received a subblock of shape (4000, 1000) 
+
+Process  {2}  has received a subblock of shape (4000, 1000) 
+
+Process  {3}  has received a subblock of shape (4000, 1000) 
+

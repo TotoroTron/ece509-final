@@ -1,0 +1,38 @@
+HELLO WORLD from process 7 of 14 on hal0030.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 2 of 14 on hal0030.amarel.rutgers.edu, running on CPU 19, Processor: x86_64
+HELLO WORLD from process 8 of 14 on hal0030.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 1 of 14 on hal0030.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 10 of 14 on hal0030.amarel.rutgers.edu, running on CPU 27, Processor: x86_64
+HELLO WORLD from process 3 of 14 on hal0030.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 4 of 14 on hal0030.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 6 of 14 on hal0030.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+HELLO WORLD from process 5 of 14 on hal0030.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 9 of 14 on hal0030.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 0 of 14 on hal0030.amarel.rutgers.edu, running on CPU 9, Processor: x86_64
+HELLO WORLD from process 11 of 14 on hal0034.amarel.rutgers.edu, running on CPU 17, Processor: x86_64
+HELLO WORLD from process 12 of 14 on hal0034.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 13 of 14 on hal0034.amarel.rutgers.edu, running on CPU 27, Processor: x86_64
+Validation dot: [2.01904673e+08 2.00063965e+08 2.00386602e+08 ... 2.00900952e+08
+ 2.01385749e+08 2.00644338e+08]
+Validation shape: (14000,)
+Validation Elapsed time: 0.01520085334777832
+Process  {1}  has received a subblock of shape (1000, 1000) 
+
+Process  {2}  has received a subblock of shape (1000, 1000) 
+
+Process  {3}  has received a subblock of shape (1000, 1000) 
+
+Process  {4}  has received a subblock of shape (1000, 1000) 
+
+Process  {5}  has received a subblock of shape (1000, 1000) 
+
+Process  {6}  has received a subblock of shape (1000, 1000) 
+
+Process  {7}  has received a subblock of shape (1000, 1000) 
+
+Process  {8}  has received a subblock of shape (1000, 1000) 
+
+Process  {9}  has received a subblock of shape (1000, 1000) 
+
+Process  {10}  has received a subblock of shape (1000, 1000) 
+

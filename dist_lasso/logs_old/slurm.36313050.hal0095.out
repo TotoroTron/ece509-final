@@ -1,0 +1,62 @@
+HELLO WORLD from process 1 of 10 on hal0095.amarel.rutgers.edu, running on CPU 2, Processor: x86_64
+HELLO WORLD from process 0 of 10 on hal0095.amarel.rutgers.edu, running on CPU 1, Processor: x86_64
+HELLO WORLD from process 6 of 10 on hal0095.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+HELLO WORLD from process 7 of 10 on hal0095.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 8 of 10 on hal0095.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 9 of 10 on hal0095.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 3 of 10 on hal0095.amarel.rutgers.edu, running on CPU 4, Processor: x86_64
+HELLO WORLD from process 5 of 10 on hal0095.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 2 of 10 on hal0095.amarel.rutgers.edu, running on CPU 3, Processor: x86_64
+HELLO WORLD from process 4 of 10 on hal0095.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+Validation dot: [[2.80431996e+09]
+ [2.80271817e+09]
+ [2.80708161e+09]
+ ...
+ [2.80134306e+09]
+ [2.80020018e+09]
+ [2.80164824e+09]]
+Validation shape: (16000, 1)
+Validation Elapsed time: 0.2001209259033203
+Process  {1}  has received a subblock of shape (1600, 14000) 
+
+Process  {2}  has received a subblock of shape (1600, 14000) 
+
+Process  {3}  has received a subblock of shape (1600, 14000) 
+
+Process  {4}  has received a subblock of shape (1600, 14000) 
+
+Process  {5}  has received a subblock of shape (1600, 14000) 
+
+Process  {6}  has received a subblock of shape (1600, 14000) 
+
+Process  {7}  has received a subblock of shape (1600, 14000) 
+
+Process  {8}  has received a subblock of shape (1600, 14000) 
+
+Process  {9}  has received a subblock of shape (1600, 14000) 
+
+Process  {0}  has received a subblock of shape (1600, 14000) 
+
+Process  {9}  has received x of shape (14000, 1) 
+
+Process  {0}  has received x of shape (14000, 1) 
+
+Process  {4}  has received x of shape (14000, 1) 
+
+Process  {8}  has received x of shape (14000, 1) 
+
+Process  {1}  has received x of shape (14000, 1) 
+
+Process  {2}  has received x of shape (14000, 1) 
+
+Process  {3}  has received x of shape (14000, 1) 
+
+Process  {7}  has received x of shape (14000, 1) 
+
+Process  {6}  has received x of shape (14000, 1) 
+
+Process  {5}  has received x of shape (14000, 1) 
+
+MPI Elapsed time: 2.3461718559265137
+Length of local dots:  10
+Error Norm: 0.0

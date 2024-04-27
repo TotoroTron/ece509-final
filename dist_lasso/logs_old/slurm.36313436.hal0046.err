@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 75, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 71, in main
+    error_norm = np.linalg.norm(global_dot - validation_dot)
+ValueError: operands could not be broadcast together with shapes (7994,) (8000,) 
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[49466,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

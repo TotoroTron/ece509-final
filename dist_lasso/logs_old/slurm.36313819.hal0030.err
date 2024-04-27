@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: hal0034
+  PID:        4152
+  Message:    connect() to 169.254.95.120:1032 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+slurmstepd: error: *** JOB 36313819 ON hal0030 CANCELLED AT 2024-04-27T17:31:42 ***
