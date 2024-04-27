@@ -24,9 +24,8 @@ def main():
     M = N // size
 
     if rank == 0:
+        # We want to calculate the mean of all of the elements in matrix A.
         A = np.random.normal(500, 100, (N, N))
-        x = np.random.randn(N)
-        b = np.random.randn(N)
 
         validation_mean = np.mean(A)
         print(f"Validation mean: {validation_mean}")
@@ -43,8 +42,6 @@ def main():
             subblocks.append(A[i * M: (i + 1) * M, :])
     else:
         subblocks = None
-        x = None
-        b = None
 
     local_block = comm.scatter(subblocks, root=0)
     print(f"Process ", {rank}, " has received a subblock of shape", local_block.shape, "\n")
