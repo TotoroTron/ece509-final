@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 60, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello.py", line 42, in main
+    comm.Scatter(subAs, subA, root=0)
+UnboundLocalError: local variable 'subA' referenced before assignment
+slurmstepd: error: *** JOB 36275649 ON slepner086 CANCELLED AT 2024-04-26T22:33:43 DUE TO TIME LIMIT ***
