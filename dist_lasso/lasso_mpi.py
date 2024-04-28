@@ -70,7 +70,7 @@ def main():
     print(f"HELLO WORLD from process {rank} of {size} on {hostname}, running on CPU {cpu_num}, Processor: {platform.processor()}")
 
     M = 2000
-    N = 2000
+    N = 4000
     Mi = M // size
 
     lambd = 0.1
