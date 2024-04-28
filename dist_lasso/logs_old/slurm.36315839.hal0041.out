@@ -1,0 +1,26 @@
+HELLO WORLD from process 12 of 20 on hal0042.amarel.rutgers.edu, running on CPU 18, Processor: x86_64
+HELLO WORLD from process 13 of 20 on hal0042.amarel.rutgers.edu, running on CPU 19, Processor: x86_64
+HELLO WORLD from process 18 of 20 on hal0042.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 8 of 20 on hal0042.amarel.rutgers.edu, running on CPU 6, Processor: x86_64
+HELLO WORLD from process 15 of 20 on hal0042.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 16 of 20 on hal0042.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 11 of 20 on hal0042.amarel.rutgers.edu, running on CPU 17, Processor: x86_64
+HELLO WORLD from process 14 of 20 on hal0042.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 6 of 20 on hal0042.amarel.rutgers.edu, running on CPU 4, Processor: x86_64
+HELLO WORLD from process 7 of 20 on hal0042.amarel.rutgers.edu, running on CPU 5, Processor: x86_64
+HELLO WORLD from process 9 of 20 on hal0042.amarel.rutgers.edu, running on CPU 7, Processor: x86_64
+HELLO WORLD from process 17 of 20 on hal0042.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+HELLO WORLD from process 5 of 20 on hal0042.amarel.rutgers.edu, running on CPU 3, Processor: x86_64
+HELLO WORLD from process 4 of 20 on hal0042.amarel.rutgers.edu, running on CPU 2, Processor: x86_64
+HELLO WORLD from process 19 of 20 on hal0042.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 3 of 20 on hal0042.amarel.rutgers.edu, running on CPU 1, Processor: x86_64
+HELLO WORLD from process 10 of 20 on hal0042.amarel.rutgers.edu, running on CPU 8, Processor: x86_64
+HELLO WORLD from process 0 of 20 on hal0041.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 1 of 20 on hal0041.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 2 of 20 on hal0041.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+Validation dot: [2.00149978e+09 2.00241437e+09 2.00351838e+09 ... 2.00537971e+09
+ 2.00408965e+09 2.00303317e+09]
+Validation shape: (14000,)
+Validation Elapsed time: 0.2336597442626953
+Process  {1}  has received a subblock of shape (700, 10000)
+Time to scatter subblock A of shape (700, 10000) to process 1: 7.49019 seconds

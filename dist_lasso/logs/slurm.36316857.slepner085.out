@@ -1,0 +1,14 @@
+HELLO WORLD from process 9 of 10 on slepner086.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 6 of 10 on slepner085.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 7 of 10 on slepner085.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 0 of 10 on slepner085.amarel.rutgers.edu, running on CPU 0, Processor: x86_64
+HELLO WORLD from process 1 of 10 on slepner085.amarel.rutgers.edu, running on CPU 1, Processor: x86_64
+HELLO WORLD from process 2 of 10 on slepner085.amarel.rutgers.edu, running on CPU 3, Processor: x86_64
+HELLO WORLD from process 3 of 10 on slepner085.amarel.rutgers.edu, running on CPU 14, Processor: x86_64
+HELLO WORLD from process 4 of 10 on slepner085.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 5 of 10 on slepner085.amarel.rutgers.edu, running on CPU 18, Processor: x86_64
+HELLO WORLD from process 8 of 10 on slepner085.amarel.rutgers.edu, running on CPU 27, Processor: x86_64
+Validation dot: [1.99672589e+09 1.99780054e+09 1.99882090e+09 ... 1.99527837e+09
+ 1.99985058e+09 1.99736578e+09]
+Validation shape: (14000,)
+Validation Elapsed time: 0.22787046432495117

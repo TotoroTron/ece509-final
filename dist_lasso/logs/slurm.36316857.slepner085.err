@@ -1,0 +1,72 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 83, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Send(A_subblocks[rank], root=0)
+  File "mpi4py/MPI/Comm.pyx", line 267, in mpi4py.MPI.Comm.Send
+TypeError: Send() takes at least 2 positional arguments (1 given)
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[25571,1],9]
+  Exit code:    1
+--------------------------------------------------------------------------

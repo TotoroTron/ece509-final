@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 86, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 55, in main
+    local_A_block = comm.scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 1587, in mpi4py.MPI.Comm.scatter
+  File "mpi4py/MPI/msgpickle.pxi", line 823, in mpi4py.MPI.PyMPI_scatter
+  File "mpi4py/MPI/msgpickle.pxi", line 161, in mpi4py.MPI.pickle_dumpv
+ValueError: expecting 10 items, got 8
+slurmstepd: error: *** JOB 36317565 ON hal0005 CANCELLED AT 2024-04-27T21:29:27 ***

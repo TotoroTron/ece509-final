@@ -1,0 +1,22 @@
+/var/lib/slurm/slurmd/job36315839/slurm_script: line 14: /home/bbc33/.conda/envs/hello/bin/activate: No such file or directory
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+[hal0042][[32178,1],3][btl_tcp_endpoint.c:626:mca_btl_tcp_endpoint_recv_connect_ack] received unexpected process identifier [[32178,1],5]
+slurmstepd: error: *** JOB 36315839 ON hal0041 CANCELLED AT 2024-04-27T19:40:34 ***

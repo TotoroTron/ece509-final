@@ -22,7 +22,7 @@ def main():
 
     # assert size == 8
     M = 14000
-    N = 1000
+    N = 10000
     Mi = M // size
 
     if M % size != 0:
@@ -43,23 +43,27 @@ def main():
         print(f"Validation shape: {validation_dot.shape}")
         print(f"Validation Elapsed time: {elapsed_time}")
 
-        A_subblocks = [A[i * Mi: (i + 1) * Mi, :] for i in range(size)]
+        A_subblocks = np.array_split(A, 8, axis=0)
+        # A_subblocks = [A[i * Mi: (i + 1) * Mi, :] for i in range(size)]
         
     else:
         A_subblocks = None
         x = None
 
+
     start_time = time.time()
     local_A_block = comm.scatter(A_subblocks, root=0)
-    print(f"Process ", {rank}, " has received a subblock of shape", local_A_block.shape, "\n")
-
-    local_x = comm.bcast(x, root=0)
-    print(f"Process ", {rank}, " has received x of shape", local_x.shape, "\n")
+    print(f"Process ", {rank}, " has received a subblock of shape", local_A_block.shape)
     elapsed_time = time.time() - start_time
+    print(f"Time to scatter subblock A of shape {local_A_block.shape} to process {rank}: {elapsed_time:.5f} seconds")
 
-    print(f"Process {rank} has received a subblock of shape {local_A_block.shape}")
-    print(f"Process {rank} has received x of shape {local_x.shape}")
-    print(f"Time to scatter and broadcast: {elapsed_time:.4f} seconds")
+    start_time = time.time()
+    local_x = comm.bcast(x, root=0)
+    print(f"Process ", {rank}, " has received x of shape", local_x.shape)
+    elapsed_time = time.time() - start_time
+    print(f"Time to broadcast vector x of shape {local_x.shape} to process {rank}: {elapsed_time:.5f} seconds")
+
+
 
     start_time = time.time()
     local_dot = np.dot(local_A_block, local_x)

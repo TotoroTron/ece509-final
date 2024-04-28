@@ -1,0 +1,40 @@
+HELLO WORLD from process 5 of 10 on hal0031.amarel.rutgers.edu, running on CPU 6, Processor: x86_64
+HELLO WORLD from process 6 of 10 on hal0031.amarel.rutgers.edu, running on CPU 7, Processor: x86_64
+HELLO WORLD from process 9 of 10 on hal0031.amarel.rutgers.edu, running on CPU 12, Processor: x86_64
+HELLO WORLD from process 1 of 10 on hal0031.amarel.rutgers.edu, running on CPU 2, Processor: x86_64
+HELLO WORLD from process 4 of 10 on hal0031.amarel.rutgers.edu, running on CPU 5, Processor: x86_64
+HELLO WORLD from process 0 of 10 on hal0031.amarel.rutgers.edu, running on CPU 1, Processor: x86_64
+HELLO WORLD from process 2 of 10 on hal0031.amarel.rutgers.edu, running on CPU 3, Processor: x86_64
+HELLO WORLD from process 3 of 10 on hal0031.amarel.rutgers.edu, running on CPU 4, Processor: x86_64
+HELLO WORLD from process 7 of 10 on hal0031.amarel.rutgers.edu, running on CPU 8, Processor: x86_64
+HELLO WORLD from process 8 of 10 on hal0031.amarel.rutgers.edu, running on CPU 11, Processor: x86_64
+Validation dot: [1.99872721e+09 2.00251593e+09 2.00237694e+09 ... 2.00231009e+09
+ 2.00185034e+09 2.00085665e+09]
+Validation shape: (15000,)
+Validation Elapsed time: 0.1313624382019043
+Process  {1}  has received a subblock of shape (1500, 10000)
+Time to scatter subblock A of shape (1500, 10000) to process 1: 7.69525 seconds
+Process  {1}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 1: 0.46010 seconds
+Process 0 has finished the dot product in 0.0154 seconds.
+Process 7 has finished the dot product in 0.0226 seconds.
+Process 4 has finished the dot product in 0.0227 seconds.
+Process 5 has finished the dot product in 0.0229 seconds.
+Process 3 has finished the dot product in 0.0230 seconds.
+Process 2 has finished the dot product in 0.0231 seconds.
+Process 9 has finished the dot product in 0.0234 seconds.
+Process 6 has finished the dot product in 0.0232 seconds.
+Process 8 has finished the dot product in 0.0233 seconds.
+Process 1 has finished the dot product in 0.0233 seconds.
+Time to gather: 0.0002 seconds
+Time to gather: 0.0005 seconds
+Time to gather: 0.0006 seconds
+Time to gather: 0.0009 seconds
+Time to gather: 0.0008 seconds
+Time to gather: 0.0004 seconds
+Time to gather: 0.0010 seconds
+Time to gather: 0.0004 seconds
+Time to gather: 0.0005 seconds
+Time to gather: 0.0086 seconds
+Length of local dots:  10
+Error Norm: 0.0

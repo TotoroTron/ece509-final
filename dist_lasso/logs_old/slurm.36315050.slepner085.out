@@ -1,0 +1,106 @@
+HELLO WORLD from process 1 of 10 on slepner085.amarel.rutgers.edu, running on CPU 17, Processor: x86_64
+HELLO WORLD from process 0 of 10 on slepner085.amarel.rutgers.edu, running on CPU 16, Processor: x86_64
+HELLO WORLD from process 3 of 10 on slepner085.amarel.rutgers.edu, running on CPU 9, Processor: x86_64
+HELLO WORLD from process 6 of 10 on slepner085.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 7 of 10 on slepner085.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 8 of 10 on slepner085.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+HELLO WORLD from process 2 of 10 on slepner085.amarel.rutgers.edu, running on CPU 8, Processor: x86_64
+HELLO WORLD from process 4 of 10 on slepner085.amarel.rutgers.edu, running on CPU 12, Processor: x86_64
+HELLO WORLD from process 5 of 10 on slepner085.amarel.rutgers.edu, running on CPU 13, Processor: x86_64
+HELLO WORLD from process 9 of 10 on slepner085.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+Validation dot: [9.97096870e+08 9.98232034e+08 9.97024588e+08 ... 9.99106916e+08
+ 9.97360534e+08 1.00194216e+09]
+Validation shape: (15000,)
+Validation Elapsed time: 0.05461692810058594
+Process  {1}  has received a subblock of shape (1500, 5000) 
+
+Process  {2}  has received a subblock of shape (1500, 5000) 
+
+Process  {3}  has received a subblock of shape (1500, 5000) 
+
+Process  {4}  has received a subblock of shape (1500, 5000) 
+
+Process  {5}  has received a subblock of shape (1500, 5000) 
+
+Process  {6}  has received a subblock of shape (1500, 5000) 
+
+Process  {7}  has received a subblock of shape (1500, 5000) 
+
+Process  {8}  has received a subblock of shape (1500, 5000) 
+
+Process  {9}  has received a subblock of shape (1500, 5000) 
+
+Process  {0}  has received a subblock of shape (1500, 5000) 
+
+Process  {9}  has received x of shape (5000,) 
+
+Process  {0}  has received x of shape (5000,) 
+
+Process 0 has received a subblock of shape (1500, 5000)
+Process 0 has received x of shape (5000,)
+Process 9 has received a subblock of shape (1500, 5000)
+Process 9 has received x of shape (5000,)
+Time to scatter and broadcast: 4.2413 seconds
+Process  {5}  has received x of shape (5000,) 
+
+Process  {4}  has received x of shape (5000,) 
+
+Time to scatter and broadcast: 0.8297 seconds
+Process  {7}  has received x of shape (5000,) 
+
+Process  {8}  has received x of shape (5000,) 
+
+Process  {1}  has received x of shape (5000,) 
+
+Process  {3}  has received x of shape (5000,) 
+
+Process 3 has received a subblock of shape (1500, 5000)
+Process 3 has received x of shape (5000,)
+Process  {2}  has received x of shape (5000,) 
+
+Process 2 has received a subblock of shape (1500, 5000)
+Process 2 has received x of shape (5000,)
+Process 4 has received a subblock of shape (1500, 5000)
+Process 4 has received x of shape (5000,)
+Time to scatter and broadcast: 4.2429 seconds
+Process 7 has received a subblock of shape (1500, 5000)
+Process 7 has received x of shape (5000,)
+Time to scatter and broadcast: 4.2431 seconds
+Process 8 has received a subblock of shape (1500, 5000)
+Process 8 has received x of shape (5000,)
+Time to scatter and broadcast: 4.2430 seconds
+Process 1 has received a subblock of shape (1500, 5000)
+Process 1 has received x of shape (5000,)
+Time to scatter and broadcast: 4.2540 seconds
+Time to scatter and broadcast: 4.2431 seconds
+Process 5 has received a subblock of shape (1500, 5000)
+Process 5 has received x of shape (5000,)
+Time to scatter and broadcast: 4.2429 seconds
+Time to scatter and broadcast: 4.2412 seconds
+Process  {6}  has received x of shape (5000,) 
+
+Process 6 has received a subblock of shape (1500, 5000)
+Process 6 has received x of shape (5000,)
+Time to scatter and broadcast: 4.2432 seconds
+Process 0 has finished the dot product in 0.0057 seconds.
+Process 1 has finished the dot product in 0.0124 seconds.
+Process 7 has finished the dot product in 0.0141 seconds.
+Process 8 has finished the dot product in 0.0141 seconds.
+Process 3 has finished the dot product in 0.0141 seconds.
+Process 5 has finished the dot product in 0.0149 seconds.
+Time to gather: 0.0006 seconds
+Process 6 has finished the dot product in 0.0145 seconds.
+Time to gather: 0.0006 seconds
+Process 4 has finished the dot product in 0.0146 seconds.
+Time to gather: 0.0009 seconds
+Time to gather: 0.0030 seconds
+Time to gather: 0.0014 seconds
+Time to gather: 0.0101 seconds
+Length of local dots:  10
+Error Norm: 0.0
+Process 9 has finished the dot product in 0.0152 seconds.
+Time to gather: 0.0004 seconds
+Process 2 has finished the dot product in 0.0148 seconds.
+Time to gather: 0.0006 seconds
+Time to gather: 0.0014 seconds
+Time to gather: 0.0014 seconds

@@ -1,0 +1,252 @@
+[hal0001.amarel.rutgers.edu:16419] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16419] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16419] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16419] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16421] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16421] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16421] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16421] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16423] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16423] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16423] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16423] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16422] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16422] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16422] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16422] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16420] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16420] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16420] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16420] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16425] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16425] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16425] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16425] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16424] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16424] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16424] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16424] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16427] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16427] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16427] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16427] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16426] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16426] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16426] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16426] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04800] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04800] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04800] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04800] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04801] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04801] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04801] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04801] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04802] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04802] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04802] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04802] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04803] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04803] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04803] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04803] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04804] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04804] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04804] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04804] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04805] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04805] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04805] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04805] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04806] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04806] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04806] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04806] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16428] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16428] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16428] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16428] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16430] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16430] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16430] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16430] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04807] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04807] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04807] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04807] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04808] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04808] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04808] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04808] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16429] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16429] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16429] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16429] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16431] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16431] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16431] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16431] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0001.amarel.rutgers.edu:16434] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0001.amarel.rutgers.edu:16434] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0001.amarel.rutgers.edu:16434] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0001.amarel.rutgers.edu:16434] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04809] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04809] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04809] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04809] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04815] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04815] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04815] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04815] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04817] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04817] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04817] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04817] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04823] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04823] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04823] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04823] OPAL ERROR: Error in file pmix3x_client.c at line 112
+[hal0015.amarel.rutgers.edu:04825] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 205
+[hal0015.amarel.rutgers.edu:04825] PMIX ERROR: UNPACK-PAST-END in file unpack.c at line 146
+[hal0015.amarel.rutgers.edu:04825] PMIX ERROR: UNPACK-PAST-END in file client/pmix_client.c at line 231
+[hal0015.amarel.rutgers.edu:04825] OPAL ERROR: Error in file pmix3x_client.c at line 112
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04809] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04825] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04801] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04802] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16427] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04803] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16419] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16423] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16430] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04804] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16424] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04807] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04805] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04806] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04808] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04815] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04817] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04823] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16434] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16420] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16421] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16422] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16425] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16426] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16428] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16429] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0001.amarel.rutgers.edu:16431] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[hal0015.amarel.rutgers.edu:04800] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!

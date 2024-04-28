@@ -1,11 +1,19 @@
+import socket
+import psutil
+import platform
+
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 from mpi4py import MPI
-import admm_mpi
+import admm_mpi as admm
 
 np.random.seed(50) #for reproducibility
 
+def print_cpu_info():
+    process = psutil.Process()  # Get the current process
+    cpu_num = process.cpu_num()  # Get the CPU number on which the current process is running
+    return cpu_num
 
 def plot_residuals(A_shape, list_primal_res, list_dual_res, rho, lambd, max_iters):
     plt.figure(figsize=(8,8))
@@ -19,6 +27,7 @@ def plot_residuals(A_shape, list_primal_res, list_dual_res, rho, lambd, max_iter
     plt.grid(which='both', axis='both')  # Enable grid for log scale
     plt.ylim(10**-15, 10**3)  # Limit the y-axis to this range.
     plt.xlim(0, max_iters)
+    plt.savefig('residuals.png', format='png', dpi=300, transparent=True, quality=95)
 
 
 def initialize_variables(Nx, Nb):
@@ -41,7 +50,30 @@ def initialize_variables(Nx, Nb):
     return A, b, true_coeffs, x_init, z_init, y_init
 
 def main():
-    print("hello world")
+    # Initialize MPI
+    comm = MPI.COMM_WORLD
+    rank = comm.Get_rank()  # Get the rank of the process
+    size = comm.Get_size()  # Total number of processes
+    hostname = socket.gethostname()  # Get the name of the node
+    cpu_num = print_cpu_info()
+    print(f"HELLO WORLD from process {rank} of {size} on {hostname}, running on CPU {cpu_num}, Processor: {platform.processor()}")
+
+    # assert size == 8
+    M = 14000
+    N = 10000
+    Mi = M // size
+
+    if M % size != 0:
+        if rank == 0:
+            print("M is not evenly divisible by the number of processes.")
+        exit()
+    
+    if rank == 0:
+        A, b, true_coeffs, x_init, z_init, y_init = initialize_variables(N, M)
+        lambd = 0.1
+        rho = 1.0
+        list_primal_res, list_dual_res, list_x, list_z = admm.ADMM_Lasso(x_init, z_init, y_init, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+
 
 if __name__ == "__main__":
     main()

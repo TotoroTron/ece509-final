@@ -1,0 +1,81 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 82, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py", line 53, in main
+    local_A_block = comm.Scatter(A_subblocks, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 729, in mpi4py.MPI.Comm.Scatter
+TypeError: Scatter() takes at least 2 positional arguments (1 given)
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[25626,1],9]
+  Exit code:    1
+--------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+/var/lib/slurm/slurmd/job36315446/slurm_script: line 14: activate: No such file or directory
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: /scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py
+Node: hal0028
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
