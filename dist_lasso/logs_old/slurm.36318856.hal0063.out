@@ -1,0 +1,11 @@
+HELLO WORLD from process 2 of 10 on hal0063.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 3 of 10 on hal0063.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 8 of 10 on hal0063.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 0 of 10 on hal0063.amarel.rutgers.edu, running on CPU 5, Processor: x86_64
+Size of matrix A: (rows=1400, cols=1000), Size of submatrix: (rows=140, cols=1000)
+HELLO WORLD from process 1 of 10 on hal0063.amarel.rutgers.edu, running on CPU 19, Processor: x86_64
+HELLO WORLD from process 4 of 10 on hal0063.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 5 of 10 on hal0063.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+HELLO WORLD from process 6 of 10 on hal0063.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 7 of 10 on hal0063.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 9 of 10 on hal0063.amarel.rutgers.edu, running on CPU 27, Processor: x86_64

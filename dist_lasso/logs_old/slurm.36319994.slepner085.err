@@ -1,0 +1,65 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 135, in <module>
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 135, in <module>
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 135, in <module>
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 135, in <module>
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 135, in <module>
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 135, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 128, in main
+    fig = plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+AttributeError: 'NoneType' object has no attribute 'shape'
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 128, in main
+    fig = plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+AttributeError: 'NoneType' object has no attribute 'shape'
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 128, in main
+    fig = plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+AttributeError: 'NoneType' object has no attribute 'shape'
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 128, in main
+    fig = plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+AttributeError: 'NoneType' object has no attribute 'shape'
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 128, in main
+    fig = plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+AttributeError: 'NoneType' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 135, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 128, in main
+    fig = plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+AttributeError: 'NoneType' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 135, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 128, in main
+    fig = plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+AttributeError: 'NoneType' object has no attribute 'shape'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 135, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 128, in main
+    fig = plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+AttributeError: 'NoneType' object has no attribute 'shape'
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 128, in main
+    fig = plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+AttributeError: 'NoneType' object has no attribute 'shape'
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[8075,1],9]
+  Exit code:    1
+--------------------------------------------------------------------------

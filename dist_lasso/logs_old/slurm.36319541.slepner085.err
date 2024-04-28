@@ -1,0 +1,91 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+Traceback (most recent call last):
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+  File "/scratch/bbc33/ece509-final/dist_lasso/admm_mpi.py", line 36, in MPI_ADMM_Lasso
+    x = np.matmul(cached_inv, np.matmul(A.T, b) + rho*z - y) # x-minimization step
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2000 is different from 200)
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[30024,1],4]
+  Exit code:    1
+--------------------------------------------------------------------------

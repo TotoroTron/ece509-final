@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 86, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 80, in main
+    plot_residuals(A.shape, list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 30, in plot_residuals
+    plt.savefig('residuals.png', format='png', dpi=300, transparent=True, quality=95)
+  File "/home/bbc33/.conda/envs/hello/lib/python3.9/site-packages/matplotlib/pyplot.py", line 1134, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "/home/bbc33/.conda/envs/hello/lib/python3.9/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/bbc33/.conda/envs/hello/lib/python3.9/site-packages/matplotlib/backend_bases.py", line 2193, in print_figure
+    result = print_method(
+  File "/home/bbc33/.conda/envs/hello/lib/python3.9/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+TypeError: print_png() got an unexpected keyword argument 'quality'
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[10843,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

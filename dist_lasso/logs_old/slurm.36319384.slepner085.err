@@ -1,0 +1,71 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 134, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 124, in main
+    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600, comm=comm)
+TypeError: MPI_ADMM_Lasso() got multiple values for argument 'comm'
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[28825,1],8]
+  Exit code:    1
+--------------------------------------------------------------------------

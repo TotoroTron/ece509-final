@@ -1,0 +1,81 @@
+HELLO WORLD from process 1 of 10 on slepner085.amarel.rutgers.edu, running on CPU 1, Processor: x86_64
+HELLO WORLD from process 2 of 10 on slepner085.amarel.rutgers.edu, running on CPU 3, Processor: x86_64
+HELLO WORLD from process 3 of 10 on slepner085.amarel.rutgers.edu, running on CPU 14, Processor: x86_64
+HELLO WORLD from process 8 of 10 on slepner085.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 7 of 10 on slepner085.amarel.rutgers.edu, running on CPU 11, Processor: x86_64
+HELLO WORLD from process 6 of 10 on slepner085.amarel.rutgers.edu, running on CPU 10, Processor: x86_64
+HELLO WORLD from process 0 of 10 on slepner085.amarel.rutgers.edu, running on CPU 0, Processor: x86_64
+Size of matrix A: (rows=2000, cols=2000), Size of submatrix: (rows=200, cols=2000)
+HELLO WORLD from process 4 of 10 on slepner085.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 5 of 10 on slepner085.amarel.rutgers.edu, running on CPU 18, Processor: x86_64
+HELLO WORLD from process 9 of 10 on slepner085.amarel.rutgers.edu, running on CPU 27, Processor: x86_64
+Time to scatter subblock A of shape (200, 2000) to process 1: 0.18461 seconds
+Time to scatter subblock A of shape (200, 2000) to process 2: 0.18625 seconds
+Time to scatter subblock A of shape (200, 2000) to process 3: 0.18778 seconds
+Time to scatter subblock A of shape (200, 2000) to process 4: 0.18665 seconds
+Time to scatter subblock A of shape (200, 2000) to process 5: 0.18832 seconds
+Time to scatter subblock A of shape (200, 2000) to process 6: 0.19155 seconds
+Time to scatter subblock A of shape (200, 2000) to process 7: 0.19451 seconds
+Time to scatter subblock A of shape (200, 2000) to process 8: 0.19757 seconds
+Time to scatter subblock A of shape (200, 2000) to process 9: 0.19609 seconds
+Time to scatter subblock A of shape (200, 2000) to process 0: 0.01926 seconds
+Process  {0}  has received b of shape (2000,)
+Process  {9}  has received b of shape (2000,)
+Process  {3}  has received b of shape (2000,)
+Process  {7}  has received b of shape (2000,)
+Process  {4}  has received b of shape (2000,)
+Process  {5}  has received b of shape (2000,)
+Process  {8}  has received b of shape (2000,)
+Process  {1}  has received b of shape (2000,)
+Process  {2}  has received b of shape (2000,)
+Process  {9}  has received x of shape (2000,)
+Process  {6}  has received b of shape (2000,)
+Process  {0}  has received x of shape (2000,)
+Process  {4}  has received x of shape (2000,)
+Process  {5}  has received x of shape (2000,)
+Process  {8}  has received x of shape (2000,)
+Process  {6}  has received x of shape (2000,)
+Process  {2}  has received x of shape (2000,)
+Process  {3}  has received x of shape (2000,)
+Process  {1}  has received x of shape (2000,)
+Process  {7}  has received x of shape (2000,)
+Process  {0}  has received z of shape (2000,)
+Process  {9}  has received z of shape (2000,)
+Process  {7}  has received z of shape (2000,)
+Process  {4}  has received z of shape (2000,)
+Process  {5}  has received z of shape (2000,)
+Process  {8}  has received z of shape (2000,)
+Process  {2}  has received z of shape (2000,)
+Process  {3}  has received z of shape (2000,)
+Process  {1}  has received z of shape (2000,)
+Process  {9}  has received y of shape (2000,)
+Process  {0}  has received y of shape (2000,)
+Process  {6}  has received z of shape (2000,)
+Process  {1}  has received y of shape (2000,)
+Process  {7}  has received y of shape (2000,)
+Process  {4}  has received y of shape (2000,)
+Process  {5}  has received y of shape (2000,)
+Process  {8}  has received y of shape (2000,)
+Process  {2}  has received y of shape (2000,)
+Process  {3}  has received y of shape (2000,)
+Process  {6}  has received y of shape (2000,)
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.72142 seconds
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.72271 seconds
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.72588 seconds
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.72788 seconds
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.73150 seconds
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.73571 seconds
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.73622 seconds
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.73753 seconds
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.73741 seconds
+Shape of inverse matrix:  (2000, 2000)
+Time to invert matrix: 0.73726 seconds
