@@ -1,0 +1,66 @@
+HELLO WORLD from process 8 of 10 on hal0029.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 9 of 10 on hal0029.amarel.rutgers.edu, running on CPU 16, Processor: x86_64
+HELLO WORLD from process 2 of 10 on hal0029.amarel.rutgers.edu, running on CPU 8, Processor: x86_64
+HELLO WORLD from process 7 of 10 on hal0029.amarel.rutgers.edu, running on CPU 13, Processor: x86_64
+HELLO WORLD from process 4 of 10 on hal0029.amarel.rutgers.edu, running on CPU 10, Processor: x86_64
+HELLO WORLD from process 3 of 10 on hal0029.amarel.rutgers.edu, running on CPU 9, Processor: x86_64
+HELLO WORLD from process 0 of 10 on hal0029.amarel.rutgers.edu, running on CPU 6, Processor: x86_64
+HELLO WORLD from process 5 of 10 on hal0029.amarel.rutgers.edu, running on CPU 11, Processor: x86_64
+HELLO WORLD from process 1 of 10 on hal0029.amarel.rutgers.edu, running on CPU 7, Processor: x86_64
+HELLO WORLD from process 6 of 10 on hal0029.amarel.rutgers.edu, running on CPU 12, Processor: x86_64
+Validation dot: [1.99533439e+09 1.99880789e+09 1.99804329e+09 ... 1.99779489e+09
+ 2.00021659e+09 2.00428989e+09]
+Validation shape: (14000,)
+Validation Elapsed time: 0.23637890815734863
+Time to scatter subblock A of shape (1400, 10000) to process 1: 6.95404 seconds
+Time to scatter subblock A of shape (1400, 10000) to process 2: 7.04405 seconds
+Time to scatter subblock A of shape (1400, 10000) to process 3: 7.13154 seconds
+Time to scatter subblock A of shape (1400, 10000) to process 4: 7.21933 seconds
+Time to scatter subblock A of shape (1400, 10000) to process 5: 7.30655 seconds
+Time to scatter subblock A of shape (1400, 10000) to process 6: 7.39235 seconds
+Time to scatter subblock A of shape (1400, 10000) to process 7: 7.49978 seconds
+Time to scatter subblock A of shape (1400, 10000) to process 8: 7.59460 seconds
+Time to scatter subblock A of shape (1400, 10000) to process 0: 0.86606 seconds
+Time to scatter subblock A of shape (1400, 10000) to process 9: 7.67440 seconds
+Process  {0}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 0: 0.00083 seconds
+Process  {2}  has received x of shape (10000,)
+Process  {1}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 1: 0.71344 seconds
+Process  {4}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 4: 0.45130 seconds
+Process  {3}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 3: 0.53894 seconds
+Process  {6}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 6: 0.27498 seconds
+Process  {5}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 5: 0.36363 seconds
+Process  {8}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 8: 0.08139 seconds
+Time to broadcast vector x of shape (10000,) to process 2: 0.62661 seconds
+Process  {7}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 7: 0.17090 seconds
+Process  {9}  has received x of shape (10000,)
+Time to broadcast vector x of shape (10000,) to process 9: 0.00092 seconds
+Process 8 has finished the dot product in 0.0262 seconds.
+Process 9 has finished the dot product in 0.0266 seconds.
+Process 0 has finished the dot product in 0.0287 seconds.
+Process 7 has finished the dot product in 0.0368 seconds.
+Process 5 has finished the dot product in 0.0368 seconds.
+Process 2 has finished the dot product in 0.0368 seconds.
+Process 6 has finished the dot product in 0.0373 seconds.
+Process 4 has finished the dot product in 0.0376 seconds.
+Process 3 has finished the dot product in 0.0376 seconds.
+Process 1 has finished the dot product in 0.0378 seconds.
+Time to gather: 0.0012 seconds
+Time to gather: 0.0002 seconds
+Time to gather: 0.0004 seconds
+Time to gather: 0.0004 seconds
+Time to gather: 0.0012 seconds
+Time to gather: 0.0007 seconds
+Time to gather: 0.0012 seconds
+Time to gather: 0.0119 seconds
+Time to gather: 0.0129 seconds
+Time to gather: 0.0113 seconds
+Length of local dots:  10
+Error Norm: 0.0

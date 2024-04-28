@@ -15,5 +15,5 @@ source /projects/community/anaconda/2020.07/gc563/etc/profile.d/conda.sh
 # source /home/bbc33/.conda/envs/hello/bin/activate
 conda activate /home/bbc33/.conda/envs/hello
 
-mpirun python /scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py
+mpirun python /scratch/bbc33/ece509-final/dist_lasso/matvec_improved.py
 # mpirun -np $SLURM_NTASKS /scratch/bbc33/ece509-final/dist_lasso/hello_matdotvec.py

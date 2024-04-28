@@ -43,7 +43,7 @@ def main():
         print(f"Validation shape: {validation_dot.shape}")
         print(f"Validation Elapsed time: {elapsed_time}")
 
-        A_subblocks = np.array_split(A, 8, axis=0)
+        A_subblocks = np.array_split(A, size, axis=0)
         # A_subblocks = [A[i * Mi: (i + 1) * Mi, :] for i in range(size)]
         
     else:
