@@ -16,18 +16,24 @@ def print_cpu_info():
     cpu_num = process.cpu_num()  # Get the CPU number on which the current process is running
     return cpu_num
 
-def plot_residuals(list_primal_res, list_dual_res, rho, lambd, max_iters):
+
+def plot_residuals(node, list_primal_res, list_dual_res, p_star, conv_iter, rho, lambd, epsilon, max_iters):
     fig, ax = plt.subplots(figsize=(8,8))
     ax.plot(list_primal_res, label="Primal residual")
     ax.plot(list_dual_res, label="Dual residual")
+    
+    # Plot a vertical line at conv_iter
+    ax.axvline(x=conv_iter, color='red', linestyle='--', label=f"convergence at k = {conv_iter}")
+
     ax.set_yscale("log")
     ax.set_xlabel("Iterations")
     ax.set_ylabel("Residual Error")
-    ax.set_title(f"Convergence Plot (rho={rho}, lambda={lambd})")
+    ax.set_title(f"Convergence Plot for Node {node} \n(rho={rho}, lambda={lambd}, epsilon={epsilon}), p_star = {p_star:.2e}")
     ax.legend()
     ax.grid(which='both', axis='both')  # Use logarithmic grid
     ax.set_ylim(10**-15, 10**3)  # Limit the y-axis to (10**-15, 10**3)
     ax.set_xlim(0, max_iters)
+    
     return fig
 
 
@@ -50,6 +56,10 @@ def initialize_variables(Nx, Nb):
     
     return A, b, true_coeffs, x_init, z_init, y_init
 
+def objective_function(A, b, x, lambd):
+    # lasso function: 0.5 * ||A x - b||^2 + lambd * ||x||_1
+    return 0.5 * np.sum((np.matmul(A, x) - b)**2) + lambd * np.sum(np.abs(x))
+
 def main():
     # Initialize MPI
     comm = MPI.COMM_WORLD
@@ -60,11 +70,13 @@ def main():
     print(f"HELLO WORLD from process {rank} of {size} on {hostname}, running on CPU {cpu_num}, Processor: {platform.processor()}")
 
     M = 2000
-    N = 4000
+    N = 2000
     Mi = M // size
 
     lambd = 0.1
     rho = 1.0
+    epsilon=1e-2 # 0.001 acceptable residual for convergence
+    max_iters = 2000
 
     if M % size != 0:
         if rank == 0:
@@ -78,10 +90,11 @@ def main():
 
         # VALIDATION TEST SINGLE PROCESS
         start_time = time.time()
-        list_primal_res, list_dual_res, list_x, list_z = admm.ADMM_Lasso(A, b, x_init, z_init, y_init, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+        list_primal_res, list_dual_res, x_star, conv_iter = admm.ADMM_Lasso(A, b, x_init, z_init, y_init, rho=rho, lambd=lambd, epsilon=epsilon, max_iters=max_iters)
         elapsed_time = time.time() - start_time
         print(f"Validation test elapsed time: {elapsed_time:.5f} seconds.")
-        fig = plot_residuals(list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
+        p_star = objective_function(A, b, x_star, lambd)
+        fig = plot_residuals(rank, list_primal_res, list_dual_res, p_star, conv_iter, rho=rho, lambd=lambd, epsilon=epsilon, max_iters=max_iters)
         fig.savefig("validation_residuals.png", format="png", dpi=300, transparent=False)
 
     else:
@@ -120,14 +133,37 @@ def main():
     local_y = comm.bcast(y_init, root=0)
     print(f"Process ", {rank}, " has received y of shape", local_y.shape)
 
-
+    # PERFORM THE MPI TEST
     start_time = time.time()
-    list_primal_res, list_dual_res, list_x, list_z = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=1e-13, max_iters=3600)
+    list_primal_res, list_dual_res, x_star, conv_iter = admm.MPI_ADMM_Lasso(comm, local_A, local_b, local_x, local_z, local_y, rho=rho, lambd=lambd, epsilon=epsilon, max_iters=max_iters)
     elapsed_time = time.time() - start_time
-    print(f"MPI test elapsed time: {elapsed_time:.5f} seconds")
-    fig = plot_residuals(list_primal_res, list_dual_res, rho=rho, lambd=lambd, max_iters=3600)
-    fig.savefig(f"mpi_residuals_process_{rank}.png", format="png", dpi=300, transparent=False)
+    print(f"MPI test elapsed time for process {rank}: {elapsed_time:.5f} seconds")
 
+
+    # GATHER THE RESULTS TO ROOT FOR PLOTTING
+    if rank == 0:
+        all_primal_res = []
+        all_dual_res = []
+        all_x_stars = []
+        all_conv_iters = []
+    else:
+        all_primal_res = None
+        all_dual_res = None
+        all_x_stars = None
+        all_conv_iters = None
+
+    all_primal_res = comm.gather(list_primal_res, root=0)
+    all_dual_res = comm.gather(list_dual_res, root=0)
+    all_x_stars = comm.gather(x_star, root=0)
+    all_conv_iters = comm.gather(conv_iter, root=0)
+
+    if rank == 0:
+        # all_p_stars = objective_function(A, b, all_x_stars, lambd)
+        for i in range(size):
+            # ith node/process
+            p_star = objective_function(A, b, all_x_stars[i], lambd)
+            fig = plot_residuals(i, all_primal_res[i], all_dual_res[i], p_star, all_conv_iters[i], rho=rho, lambd=lambd, epsilon=epsilon, max_iters=max_iters)
+            fig.savefig(f"mpi_residuals_process_{i}.png", format="png", dpi=300, transparent=False)
 
 
 

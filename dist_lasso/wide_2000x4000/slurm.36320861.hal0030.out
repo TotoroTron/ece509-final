@@ -1,0 +1,83 @@
+HELLO WORLD from process 1 of 10 on hal0030.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 6 of 10 on hal0030.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 9 of 10 on hal0030.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+HELLO WORLD from process 7 of 10 on hal0030.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 3 of 10 on hal0030.amarel.rutgers.edu, running on CPU 18, Processor: x86_64
+HELLO WORLD from process 5 of 10 on hal0030.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 0 of 10 on hal0030.amarel.rutgers.edu, running on CPU 14, Processor: x86_64
+HELLO WORLD from process 2 of 10 on hal0030.amarel.rutgers.edu, running on CPU 17, Processor: x86_64
+HELLO WORLD from process 8 of 10 on hal0030.amarel.rutgers.edu, running on CPU 23, Processor: x86_64
+Size of matrix A: (rows=2000, cols=4000), Size of submatrix: (rows=200, cols=4000)
+HELLO WORLD from process 4 of 10 on hal0030.amarel.rutgers.edu, running on CPU 19, Processor: x86_64
+Time to invert matrix: 5.51668 seconds
+Validation test elapsed time: 37.25559 seconds.
+Time to scatter subblock A of shape (200, 4000) to process 1: 38.33672 seconds
+Time to scatter subblock A of shape (200, 4000) to process 2: 38.33969 seconds
+Time to scatter subblock A of shape (200, 4000) to process 3: 38.34309 seconds
+Time to scatter subblock A of shape (200, 4000) to process 4: 38.34642 seconds
+Time to scatter subblock A of shape (200, 4000) to process 5: 38.34972 seconds
+Time to scatter subblock A of shape (200, 4000) to process 6: 38.35375 seconds
+Time to scatter subblock A of shape (200, 4000) to process 7: 38.35679 seconds
+Time to scatter subblock A of shape (200, 4000) to process 8: 38.35949 seconds
+Time to scatter subblock A of shape (200, 4000) to process 0: 0.03247 seconds
+Time to scatter subblock A of shape (200, 4000) to process 9: 38.36512 seconds
+Process  {2}  has received b of shape (200,)
+Process  {1}  has received b of shape (200,)
+Process  {3}  has received b of shape (200,)
+Process  {4}  has received b of shape (200,)
+Process  {5}  has received b of shape (200,)
+Process  {7}  has received b of shape (200,)
+Process  {6}  has received b of shape (200,)
+Process  {8}  has received b of shape (200,)
+Process  {9}  has received b of shape (200,)
+Process  {0}  has received b of shape (200,)
+Process  {0}  has received x of shape (4000,)
+Process  {9}  has received x of shape (4000,)
+Process  {2}  has received x of shape (4000,)
+Process  {4}  has received x of shape (4000,)
+Process  {3}  has received x of shape (4000,)
+Process  {5}  has received x of shape (4000,)
+Process  {7}  has received x of shape (4000,)
+Process  {1}  has received x of shape (4000,)
+Process  {8}  has received x of shape (4000,)
+Process  {6}  has received x of shape (4000,)
+Process  {4}  has received z of shape (4000,)
+Process  {3}  has received z of shape (4000,)
+Process  {5}  has received z of shape (4000,)
+Process  {7}  has received z of shape (4000,)
+Process  {1}  has received z of shape (4000,)
+Process  {8}  has received z of shape (4000,)
+Process  {0}  has received z of shape (4000,)
+Process  {9}  has received z of shape (4000,)
+Process  {2}  has received z of shape (4000,)
+Process  {6}  has received z of shape (4000,)
+Process  {2}  has received y of shape (4000,)
+Process  {4}  has received y of shape (4000,)
+Process  {3}  has received y of shape (4000,)
+Process  {7}  has received y of shape (4000,)
+Process  {1}  has received y of shape (4000,)
+Process  {8}  has received y of shape (4000,)
+Process  {6}  has received y of shape (4000,)
+Process  {5}  has received y of shape (4000,)
+Process  {0}  has received y of shape (4000,)
+Process  {9}  has received y of shape (4000,)
+Time to invert matrix (A.T * A + rho * I): 4.92594 seconds
+Time to invert matrix (A.T * A + rho * I): 4.96319 seconds
+Time to invert matrix (A.T * A + rho * I): 4.97559 seconds
+Time to invert matrix (A.T * A + rho * I): 4.97592 seconds
+Time to invert matrix (A.T * A + rho * I): 4.97835 seconds
+Time to invert matrix (A.T * A + rho * I): 4.97888 seconds
+Time to invert matrix (A.T * A + rho * I): 4.98183 seconds
+Time to invert matrix (A.T * A + rho * I): 4.98499 seconds
+Time to invert matrix (A.T * A + rho * I): 4.98632 seconds
+Time to invert matrix (A.T * A + rho * I): 4.98795 seconds
+MPI test elapsed time for process 5: 49.09559 seconds
+MPI test elapsed time for process 7: 49.09579 seconds
+MPI test elapsed time for process 9: 49.09565 seconds
+MPI test elapsed time for process 6: 49.09571 seconds
+MPI test elapsed time for process 2: 49.09582 seconds
+MPI test elapsed time for process 4: 49.09583 seconds
+MPI test elapsed time for process 3: 49.09583 seconds
+MPI test elapsed time for process 8: 49.09582 seconds
+MPI test elapsed time for process 1: 49.09594 seconds
+MPI test elapsed time for process 0: 49.09581 seconds

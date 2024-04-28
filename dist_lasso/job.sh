@@ -4,7 +4,7 @@
 #SBATCH --error=logs/slurm.%j.%N.err     # STDERR output file (optional)
 
 #SBATCH --partition=main
-#SBATCH --mem=8000                  # Real memory (RAM) required (MB)
+#SBATCH --mem=16000                 # Real memory (RAM) required (MB)
 #SBATCH --ntasks=10                 # 10 total tasks
 
 #SBATCH --time=01:00:00             # Total run time limit (HH:MM:SS)

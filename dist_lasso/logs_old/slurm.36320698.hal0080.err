@@ -1,0 +1,111 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 565, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 511, in mpi4py.MPI._p_msg_cco.for_cco_recv
+  File "mpi4py/MPI/msgbuffer.pxi", line 190, in mpi4py.MPI.message_simple
+ValueError: message: expecting 2 to 4 items
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 574, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 495, in mpi4py.MPI._p_msg_cco.for_cco_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 198, in mpi4py.MPI.message_simple
+TypeError: message: expecting buffer or list/tuple
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 574, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 495, in mpi4py.MPI._p_msg_cco.for_cco_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 198, in mpi4py.MPI.message_simple
+TypeError: message: expecting buffer or list/tuple
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 574, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 495, in mpi4py.MPI._p_msg_cco.for_cco_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 198, in mpi4py.MPI.message_simple
+TypeError: message: expecting buffer or list/tuple
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 574, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 495, in mpi4py.MPI._p_msg_cco.for_cco_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 198, in mpi4py.MPI.message_simple
+TypeError: message: expecting buffer or list/tuple
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 574, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 495, in mpi4py.MPI._p_msg_cco.for_cco_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 198, in mpi4py.MPI.message_simple
+TypeError: message: expecting buffer or list/tuple
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 574, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 495, in mpi4py.MPI._p_msg_cco.for_cco_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 198, in mpi4py.MPI.message_simple
+TypeError: message: expecting buffer or list/tuple
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 574, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 495, in mpi4py.MPI._p_msg_cco.for_cco_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 198, in mpi4py.MPI.message_simple
+TypeError: message: expecting buffer or list/tuple
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 574, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 495, in mpi4py.MPI._p_msg_cco.for_cco_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 198, in mpi4py.MPI.message_simple
+TypeError: message: expecting buffer or list/tuple
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 178, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 155, in main
+    comm.Gather(all_primal_res, list_primal_res, root=0)
+  File "mpi4py/MPI/Comm.pyx", line 705, in mpi4py.MPI.Comm.Gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 574, in mpi4py.MPI._p_msg_cco.for_gather
+  File "mpi4py/MPI/msgbuffer.pxi", line 495, in mpi4py.MPI._p_msg_cco.for_cco_send
+  File "mpi4py/MPI/msgbuffer.pxi", line 198, in mpi4py.MPI.message_simple
+TypeError: message: expecting buffer or list/tuple
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[12353,1],6]
+  Exit code:    1
+--------------------------------------------------------------------------

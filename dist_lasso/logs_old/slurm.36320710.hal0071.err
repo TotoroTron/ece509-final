@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 170, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 161, in main
+    all_p_stars = objective_function(A, b, all_x_stars, lambd)
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 61, in objective_function
+    return 0.5 * np.sum((A @ x - b)**2) + lambd * np.sum(np.abs(x))
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 10 is different from 2000)
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[65212,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

@@ -1,0 +1,13 @@
+HELLO WORLD from process 1 of 10 on hal0001.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 2 of 10 on hal0001.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 0 of 10 on hal0001.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+Size of matrix A: (rows=1000, cols=2000), Size of submatrix: (rows=100, cols=2000)
+HELLO WORLD from process 4 of 10 on hal0020.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 6 of 10 on hal0020.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 7 of 10 on hal0020.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 9 of 10 on hal0020.amarel.rutgers.edu, running on CPU 27, Processor: x86_64
+HELLO WORLD from process 5 of 10 on hal0020.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 3 of 10 on hal0020.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 8 of 10 on hal0020.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+Time to invert matrix: 0.82294 seconds
+Validation test elapsed time: 11.10206 seconds.

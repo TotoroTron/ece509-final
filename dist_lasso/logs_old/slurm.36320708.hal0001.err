@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: hal0001
+  PID:        970
+  Message:    connect() to 169.254.95.120:1028 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+[hal0001][[3844,1],0][btl_tcp_endpoint.c:626:mca_btl_tcp_endpoint_recv_connect_ack] received unexpected process identifier [[3844,1],1]
+slurmstepd: error: *** JOB 36320708 ON hal0001 CANCELLED AT 2024-04-28T03:47:19 ***

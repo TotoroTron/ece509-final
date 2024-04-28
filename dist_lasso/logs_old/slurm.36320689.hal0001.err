@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 177, in <module>
+    main()
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 96, in main
+    fig = plot_residuals(rank, list_primal_res, list_dual_res, x_star, conv_iter, rho=rho, lambd=lambd, max_iters=max_iters)
+  File "/scratch/bbc33/ece509-final/dist_lasso/lasso_mpi.py", line 31, in plot_residuals
+    ax.set_title(f"Convergence Plot for Node {node} (rho={rho}, lambda={lambd})\n p_star = {p_star:.2e}")
+TypeError: unsupported format string passed to numpy.ndarray.__format__
+slurmstepd: error: *** JOB 36320689 ON hal0001 CANCELLED AT 2024-04-28T03:40:07 ***

@@ -1,0 +1,33 @@
+HELLO WORLD from process 0 of 10 on hal0001.amarel.rutgers.edu, running on CPU 24, Processor: x86_64
+Size of matrix A: (rows=1000, cols=2000), Size of submatrix: (rows=100, cols=2000)
+HELLO WORLD from process 2 of 10 on hal0001.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+HELLO WORLD from process 1 of 10 on hal0001.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 3 of 10 on hal0020.amarel.rutgers.edu, running on CPU 15, Processor: x86_64
+HELLO WORLD from process 7 of 10 on hal0020.amarel.rutgers.edu, running on CPU 25, Processor: x86_64
+HELLO WORLD from process 9 of 10 on hal0020.amarel.rutgers.edu, running on CPU 27, Processor: x86_64
+HELLO WORLD from process 4 of 10 on hal0020.amarel.rutgers.edu, running on CPU 20, Processor: x86_64
+HELLO WORLD from process 6 of 10 on hal0020.amarel.rutgers.edu, running on CPU 22, Processor: x86_64
+HELLO WORLD from process 5 of 10 on hal0020.amarel.rutgers.edu, running on CPU 21, Processor: x86_64
+HELLO WORLD from process 8 of 10 on hal0020.amarel.rutgers.edu, running on CPU 26, Processor: x86_64
+Time to invert matrix: 0.85882 seconds
+Validation test elapsed time: 11.09409 seconds.
+Time to scatter subblock A of shape (100, 2000) to process 1: 11.75316 seconds
+Time to scatter subblock A of shape (100, 2000) to process 2: 11.80497 seconds
+Time to scatter subblock A of shape (100, 2000) to process 3: 11.75702 seconds
+Time to scatter subblock A of shape (100, 2000) to process 4: 11.76709 seconds
+Time to scatter subblock A of shape (100, 2000) to process 5: 11.77671 seconds
+Time to scatter subblock A of shape (100, 2000) to process 6: 11.78675 seconds
+Time to scatter subblock A of shape (100, 2000) to process 7: 11.79683 seconds
+Time to scatter subblock A of shape (100, 2000) to process 8: 11.80778 seconds
+Time to scatter subblock A of shape (100, 2000) to process 0: 0.08129 seconds
+Process  {1}  has received b of shape (100,)
+Process  {2}  has received b of shape (100,)
+Process  {0}  has received b of shape (100,)
+Process  {5}  has received b of shape (100,)
+Process  {3}  has received b of shape (100,)
+Process  {7}  has received b of shape (100,)
+Process  {4}  has received b of shape (100,)
+Process  {6}  has received b of shape (100,)
+Process  {8}  has received b of shape (100,)
+Time to scatter subblock A of shape (100, 2000) to process 9: 11.81760 seconds
+Process  {9}  has received b of shape (100,)
