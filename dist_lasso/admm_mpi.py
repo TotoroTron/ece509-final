@@ -24,8 +24,9 @@ def MPI_ADMM_Lasso(comm, A, b, x_init, z_init, y_init, rho, lambd, epsilon, max_
     z = z_init
     y = y_init
 
-    x_star = None
-    conv_iter = None
+    x_star = np.zeros(x.shape)
+    x_stop = np.zeros(x.shape)
+    stop_iter = max_iters
     convergence_flag = False
 
 
@@ -65,14 +66,15 @@ def MPI_ADMM_Lasso(comm, A, b, x_init, z_init, y_init, rho, lambd, epsilon, max_
 
         list_primal_res.append(primal_res)
         list_dual_res.append(dual_res)
-
+        list_x.append(x)
+        
         # Check for convergence
         if primal_res < epsilon and dual_res < epsilon and not convergence_flag:
-            x_star = x
-            conv_iter = k
+            x_stop = x
+            stop_iter = k
             convergence_flag = True
-
-    return list_primal_res, list_dual_res, x_star, conv_iter
+    x_star = x
+    return list_primal_res, list_dual_res, list_x, x_star, x_stop, stop_iter
 
 
 
@@ -84,8 +86,9 @@ def ADMM_Lasso(A, b, x, z, y, rho, lambd, epsilon, max_iters):
     list_x = []
     list_z = []
 
-    x_star = None
-    conv_iter = None
+    x_star = np.zeros(x.shape)
+    x_stop = np.zeros(x.shape)
+    stop_iter = max_iters
     convergence_flag = False
 
     iters = np.arange(0, max_iters) # max number of iterations
@@ -110,11 +113,12 @@ def ADMM_Lasso(A, b, x, z, y, rho, lambd, epsilon, max_iters):
 
         list_primal_res.append(primal_res)
         list_dual_res.append(dual_res)
+        list_x.append(x)
 
         # Check for convergence
         if primal_res < epsilon and dual_res < epsilon and not convergence_flag:
-            x_star = x
-            conv_iter = k
+            x_stop = x
+            stop_iter = k
             convergence_flag = True
-        
-    return list_primal_res, list_dual_res, x_star, conv_iter
+    x_star = x
+    return list_primal_res, list_dual_res, list_x, x_star, x_stop, stop_iter

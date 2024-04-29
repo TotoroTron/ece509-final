@@ -5,7 +5,9 @@
 
 #SBATCH --partition=main
 #SBATCH --mem=8000                 # Real memory (RAM) required (MB)
-#SBATCH --ntasks=10                
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=10
+#SBATCH --cpus-per-task=1
 
 #SBATCH --time=01:00:00             # Total run time limit (HH:MM:SS)
 
