@@ -18,7 +18,7 @@ def print_cpu_info():
 
 
 def plot_residuals(node, list_primal_res, list_dual_res, p_star, p_stop, stop_iter, rho, lambd, epsilon, max_iters):
-    fig, ax = plt.subplots(figsize=(8,8))
+    fig, ax = plt.subplots(figsize=(8,4))
     ax.plot(list_primal_res, label="Primal residual")
     ax.plot(list_dual_res, label="Dual residual")
     
@@ -28,10 +28,10 @@ def plot_residuals(node, list_primal_res, list_dual_res, p_star, p_stop, stop_it
     ax.set_yscale("log")
     ax.set_xlabel("Iterations")
     ax.set_ylabel("Residual Error")
-    ax.set_title(f"Convergence Plot for Node {node} \n(rho={rho}, lambda={lambd}, epsilon={epsilon}), p_star = {p_star:.2e}, p_stop = {p_stop:.2e}")
+    ax.set_title(f"Convergence Plot for Node {node} \n(rho={rho}, lambda={lambd}, epsilon={epsilon}), p_star = {p_star:.6e}, p_stop = {p_stop:.6e}")
     ax.legend()
     ax.grid(which='both', axis='both')  # Use logarithmic grid
-    ax.set_ylim(10**-15, 10**3)  # Limit the y-axis to (10**-15, 10**3)
+    ax.set_ylim(10**-13, 10**3)  # Limit the y-axis to (10**-15, 10**3)
     ax.set_xlim(0, max_iters)
     
     return fig
@@ -57,8 +57,6 @@ def initialize_variables(Nx, Nb):
     return A, b, true_coeffs, x_init, z_init, y_init
 
 def objective_function(A, b, x, lambd):
-    print("Shape of A:", A.shape, "Shape of b:", b.shape)
-    # print("Shape of x:", x.shape)
     # lasso function: 0.5 * ||A x - b||^2 + lambd * ||x||_1
     return 0.5 * np.sum((np.matmul(A, x) - b)**2) + lambd * np.sum(np.abs(x))
 
@@ -71,14 +69,14 @@ def main():
     cpu_num = print_cpu_info()
     print(f"HELLO WORLD from process {rank} of {size} on {hostname}, running on CPU {cpu_num}, Processor: {platform.processor()}")
 
-    M = 4000
-    N = 2000
+    M = 2800
+    N = 2800
     Mi = M // size
 
     lambd = 0.1
     rho = 1.0
     epsilon=1e-2 # 0.001 acceptable residual for convergence
-    max_iters = 2000
+    max_iters = 4000
 
     if M % size != 0:
         if rank == 0:
