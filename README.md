@@ -30,10 +30,15 @@ A study on the Alternating Direction Method of Multipliers (ADMM).
 
 **Description:** Our first dive into the Alternating Direction Method of Multipliers (ADMM) algorithm. This directory contains Jupyter notebooks used to perform experiments on simple problems to understand the fundamentals of ADMM.
 
+### `lasso/`
+
+**Description:** Our first attempt to apply ADMM to the Lasso problem in Jupyter notesbooks
+
+
 ### `hello_mpi/`
 
 **Description:** Our introductory exploration into using the Message Passing Interface (MPI). This directory includes examples and experiments demonstrating how to use MPI for distributing large computational tasks across multiple CPU nodes in a computer cluster.
 
 ### `dist_lasso/`
 
-**Description:** Our investigation into distributed global consensus using ADMM. This directory focuses on the distributed implementation of the Lasso problem, employing ADMM techniques to achieve consensus in distributed system.
+**Description:** Our investigation into distributed global consensus using ADMM. This directory focuses on the distributed implementation of the Lasso problem, employing ADMM techniques to achieve consensus in distributed system. Directories square_2800x2800, tall_4000x2000, and wide_2000x4000 contains test results from LASSO regression on input matrices of dimensions described by the directory name.
