@@ -6,6 +6,9 @@ A study on the Alternating Direction Method of Multipliers (ADMM).
 **Main Reference**: Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers (Stephen Boyd, Neal Parikh, Eric Chu, Borja Peleato, Jonathan Eckstein).  
 https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf
 
+**Course Reference**: Convex Optimization (Stephen Boyd, Lieven Vandenburghe)   
+https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf 
+
 **File structure:**
 ```
 ├── admm
@@ -31,7 +34,7 @@ https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf
 
 ### `admm/`
 
-**Description:** Our first dive into the Alternating Direction Method of Multipliers (ADMM) algorithm. Contains Jupyter notebooks where we apply ADDM on a simple quadratic problem to understand the fundamentals of ADMM.
+**Description:** Our first dive into the Alternating Direction Method of Multipliers (ADMM) algorithm. Contains aJupyter notebook where we apply ADDM to a simple quadratic problem to understand the fundamentals of ADMM.
 
 ### `lasso/`
 
