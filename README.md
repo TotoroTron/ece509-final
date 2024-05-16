@@ -31,7 +31,7 @@ https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf
 
 ### `admm/`
 
-**Description:** Our first dive into the Alternating Direction Method of Multipliers (ADMM) algorithm. Contains Jupyter notebooks used to perform experiments on a simple quadratic problem to understand the fundamentals of ADMM.
+**Description:** Our first dive into the Alternating Direction Method of Multipliers (ADMM) algorithm. Contains Jupyter notebooks where we apply ADDM on a simple quadratic problem to understand the fundamentals of ADMM.
 
 ### `lasso/`
 
