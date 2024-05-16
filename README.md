@@ -3,6 +3,9 @@ ECE509 Convex Optimization Final
 
 A study on the Alternating Direction Method of Multipliers (ADMM).
 
+**Main Reference**: Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers (Stephen Boyd, Neal Parikh, Eric Chu, Borja Peleato, Jonathan Eckstein).  
+https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf
+
 **File structure:**
 ```
 ├── admm
@@ -28,17 +31,17 @@ A study on the Alternating Direction Method of Multipliers (ADMM).
 
 ### `admm/`
 
-**Description:** Our first dive into the Alternating Direction Method of Multipliers (ADMM) algorithm. This directory contains Jupyter notebooks used to perform experiments on simple problems to understand the fundamentals of ADMM.
+**Description:** Our first dive into the Alternating Direction Method of Multipliers (ADMM) algorithm. Contains Jupyter notebooks used to perform experiments on a simple quadratic problem to understand the fundamentals of ADMM.
 
 ### `lasso/`
 
-**Description:** Our first attempt to apply ADMM to the Lasso problem in Jupyter notesbooks
-
+**Description:** Our first attempt to apply ADMM to the Lasso regression in Jupyter notebooks.
 
 ### `hello_mpi/`
 
-**Description:** Our introductory exploration into using the Message Passing Interface (MPI). This directory includes examples and experiments demonstrating how to use MPI for distributing large computational tasks across multiple CPU nodes in a computer cluster.
+**Description:** Our first dive into the Message Passing Interface (MPI) adapted to Python, mpi4py. Contains simple problems using Scatter, Broadcast, and Gather to split up large tasks among multiple nodes in a computer cluster.
 
 ### `dist_lasso/`
 
-**Description:** Our investigation into distributed global consensus using ADMM. This directory focuses on the distributed implementation of the Lasso problem, employing ADMM techniques to achieve consensus in distributed system. Directories square_2800x2800, tall_4000x2000, and wide_2000x4000 contains test results from LASSO regression on input matrices of dimensions described by the directory name.
+**Description:** Our investigation into distributed ADMM using the global consensus strategy applied to the Lasso regression problem. Implemented with MPI. Test results for square, tall, and wide input data matrices. Dense matrices.
+
