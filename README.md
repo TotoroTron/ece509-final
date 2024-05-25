@@ -3,7 +3,7 @@ ECE509 Convex Optimization Final
 
 A study on the Alternating Direction Method of Multipliers (ADMM).
 
-**Presentation Slide** : Distributed Optimization ADMM_Swapnil_Brian.pdf
+**Presentation Slide** : [Distributed Optimization ADMM_Swapnil_Brian.pdf](https://github.com/TotoroTron/ece509-final/blob/main/Distributed%20Optimization%20ADMM_Swapnil_Brian.pdf)
 
 **Main Reference**: Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers (Stephen Boyd, Neal Parikh, Eric Chu, Borja Peleato, Jonathan Eckstein).  
 https://web.stanford.edu/~boyd/papers/pdf/admm_distr_stats.pdf
